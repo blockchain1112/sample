@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: aqua;
+    padding: 72px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    text-align: center;
+}
+button{
+    cursor: pointer;
+}
+section#edit-container{
+    display: flex;
+    pad: 32px 120px;
+}
+section#edit-container input{
+    background-color: rgba(128, 128, 128, 0.5);
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding: 3px 8px;
+    width: 50%;
+    color: white;
+}
+
+section#edit-container button{
+    padding: 12px 52px;
+    margin-left: 16px;
+    border: none;
+    background-color: blue;
+    color: white;
+}
+
+section#list-container ul{
+    list-style-type: none;
+    padding: 0;
+    max-height: 75vh;
+    overflow-y: auto;
+}
+section#list-container ul li{
+    background-color: white;
+    padding: 8px;
+    margin-top: 5px;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+section#list-container ul li button.del-btn{
+    background-color: red;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 12px;
+}
